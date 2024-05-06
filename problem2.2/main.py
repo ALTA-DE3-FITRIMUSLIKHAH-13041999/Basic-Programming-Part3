@@ -8,3 +8,5 @@ for i in range(1, bilangan + 1):
 print("faktor", bilangan, "adalah:")
 for i in range(len(faktor) -1, -1, -1):
     print(faktor[i])
+
+
