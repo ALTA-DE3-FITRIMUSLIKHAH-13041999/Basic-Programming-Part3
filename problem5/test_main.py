@@ -23,4 +23,4 @@ class TestPangkat(unittest.TestCase):
         self.assertEqual(result, 343, msg="Expected 343 for 7^3")
         
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main(verbosity=2)
