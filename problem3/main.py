@@ -10,7 +10,7 @@
 
 def prime_number(num):
         if num <= 1:
-            return "Not Prime"
+            return "Prime"
         elif num == 2:
             return "Prime"
         elif num % 2 == 0:
@@ -18,8 +18,8 @@ def prime_number(num):
         else:
             for i in range(3, int(num**0.5) + 1, 2):
                 if num % i == 0:
-                    return "Not Prime"
-                return "Prime"
+                     return "Not Prime"
+            return "Prime"
 
 if __name__ == '__main__':
     print(prime_number(11)) # "Prime"

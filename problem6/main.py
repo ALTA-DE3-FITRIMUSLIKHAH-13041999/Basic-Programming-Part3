@@ -1,6 +1,7 @@
 def full_prima(N):
     # your code here
-    return ''
+    return '' 
+
 
 if __name__ == '__main__':
     print(full_prima(2)) # True
