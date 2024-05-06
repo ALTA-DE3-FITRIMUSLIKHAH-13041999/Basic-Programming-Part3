@@ -23,4 +23,4 @@ class TestPalindrome(unittest.TestCase):
         self.assertEqual(result, False, msg="'lion' is not a palindrome, so it should return False")
         
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main(verbosity=2)
